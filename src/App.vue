@@ -1,16 +1,19 @@
 <template>
-  <div id="app">
-
-  </div>
+  <BaseCard>
+    <h1>Überschrift</h1>
+    <p>Hi</p>
+  </BaseCard>
 </template>
 
 <script>
+import BaseCard from './components/BaseCard.vue';
+
 
 
 export default {
   name: 'App',
   components: {
-
+    BaseCard
   }
 }
 </script>
